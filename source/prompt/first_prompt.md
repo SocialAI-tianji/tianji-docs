@@ -200,3 +200,7 @@ CompletionMessage(content='亲爱的爷爷奶奶、爸爸妈妈，咱们一起�
 ### Fork代码仓库
 如果您有更好的提示词，或是发现Tianji项目中提示词有优化的空间，欢迎在Github上提交pull request来完善Tianji项目。
 首先，您需要将项目仓库“Fork”到你的账户下。这可以通过点击项目主页上的“Fork”按钮来完成。
+
+![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/1.png)
+
+
