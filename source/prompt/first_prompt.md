@@ -203,4 +203,37 @@ CompletionMessage(content='亲爱的爷爷奶奶、爸爸妈妈，咱们一起�
 
 ![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/1.png)
 
+Fork 之后，您就拥有了该Tianji代码仓库的副本（副本将出现在您自己账号的仓库里面）。
+![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/2.png)
+
+
+
+
+### 修改现有Prompt内容
+如果您发现了现存Prompt模板中需要改进的部分，可以在文档右上方点击“编辑”进行修改，修改好之后点击“Commit changes”
+![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/3.png)
+
+![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/4.png)
+
+![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/5.png)
+
+
+### 提交新的prompt文件
+
+如果您想要提交新的Prompt .md文件，请确保Prompt的格式与已有prompt保持一致：
+![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/6.png)
+
+在所属的人际场景文件夹下，可以上传提交您的prompt文件
+![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/7.png)
+
+### 提交pr(Pull Requests)
+提交更改或上传新文件之后，回到您自己的Tianji副本主页，点击“Pull requests”，进入下一个页面中，继续点击“Create pull request”
+![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/8.png)
+
+![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/9.png)
+
+在这个页面中，您可以编辑title,并在Add a description区域补充您提交修改的具体情况。接着点击右下角的Create pull request.
+![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/10.png)
+
+![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/11.png)
 
