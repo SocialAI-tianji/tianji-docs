@@ -1,11 +1,10 @@
 写出第一个提示词
 ====================
 
-在本教程中,你将学会任何创建自己的第一个提示词,并使用测试文件调用得到结果输出.
+在本篇教程中,您将学会任何创建自己的第一个提示词,并使用测试文件调用得到结果输出.
 
+## 提示词工程
 
-
-## 2.1.1 提示词工程
 大模型能够根据设定的场景和角色，产生符合特定情境的反馈。这种多样性不仅增强了交互体验，也极大拓展了模型的应用场景。
 写Prompt时需要考虑的内容：
 1. 设置场景：我们要告诉大模型，我们想要模拟的是一个什么样的人际交往情景。比如，现在我们想模拟的是“家宴聚餐”。
@@ -40,13 +39,7 @@ A：
 外公外婆，各位亲朋好友，新年将至，让我们举杯同庆，祝福大家新年快乐，身体健康，万事如意！愿我们的家庭永远和睦幸福！
 ```
 
-
-
-
-
-
-
-## 2.1.2 调用不同模型
+## 调用不同模型
 
 Tianji支持调用不同的基座模型，不仅支持在线大模型如：openai、智谱AI、文心一言， 也支持调用本地开源模型，例如InternLM，GLM等.
 
@@ -147,7 +140,7 @@ print(response.choices[0].message)
 
 
 
-## 2.1.3 修改天机的json提示词
+## 修改天机的json提示词
 
 Tianji项目中，所有的提示词模板统一以md格式上传，同时在代码仓库配有自动化的CI脚本，它支持批量将.md写的规定prompt转换为规定格式的json，输出的json例子如下：
 - id：prompt所属大类
@@ -215,45 +208,45 @@ CompletionMessage(content='亲爱的爷爷奶奶、爸爸妈妈，咱们一起�
 
 
 
-## 2.1.4 提交第一个贡献
+## 提交第一个贡献
 
 ### Fork代码仓库
 如果您有更好的提示词，或是发现Tianji项目中提示词有优化的空间，欢迎在Github上提交pull request来完善Tianji项目。
 首先，您需要将项目仓库“Fork”到你的账户下。这可以通过点击项目主页上的“Fork”按钮来完成。
 
-![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/1.png)
+![](first_prompt/1.png)
 
 Fork 之后，您就拥有了该Tianji代码仓库的副本（副本将出现在您自己账号的仓库里面）。
-![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/2.png)
+![](first_prompt/2.png)
 
 
 
 
 ### 修改现有Prompt内容
 如果您发现了现存Prompt模板中需要改进的部分，可以在文档右上方点击“编辑”进行修改，修改好之后点击“Commit changes”
-![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/3.png)
+![](first_prompt/3.png)
 
-![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/4.png)
+![](first_prompt/4.png)
 
-![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/5.png)
+![](first_prompt/5.png)
 
 
 ### 提交新的prompt文件
 
 如果您想要提交新的Prompt .md文件，请确保Prompt的格式与已有prompt保持一致：
-![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/6.png)
+![](first_prompt/6.png)
 
 在所属的人际场景文件夹下，可以上传提交您的prompt文件
-![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/7.png)
+![](first_prompt/7.png)
 
 ### 提交pr(Pull Requests)
 提交更改或上传新文件之后，回到您自己的Tianji副本主页，点击“Pull requests”，进入下一个页面中，继续点击“Create pull request”
-![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/8.png)
+![](first_prompt/8.png)
 
-![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/9.png)
+![](first_prompt/9.png)
 
 在这个页面中，您可以编辑title,并在Add a description区域补充您提交修改的具体情况。接着点击右下角的Create pull request.
-![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/10.png)
+![](first_prompt/10.png)
 
-![](https://github.com/ElsaWang1215/tianji-docs/blob/main/source/prompt/first_prompt/11.png)
+![](first_prompt/11.png)
 
